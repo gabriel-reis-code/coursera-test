@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header {
+	font-size: 175%;
+	font-family: 'Times New Roman', serif;
+	text-align: center;
+	background-color: purple;
+
+}
+
+section {
+	background-color: grey;
+	border: 1px solid black;
+	float: left;
+	margin: 10px;
+	}
+section h1 {
+	border: 1px solid black;
+	margin: 0;
+	text-align: center;
+	height: 30px;
+	width: 100px;
+	position: relative;
+	float: right;
+	background-color: red;
+}
+
+section h2 {
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	font-size: 125%;
+	width: 90%;
+}
+
+@media (min-width: 992px) {
+	.change0 {
+		width: 31.1%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.change1 {
+		width: 47%;
+	}
+	.change11 {
+		width: 98%;
+	}
+}
+@media (max-width: 767px) {
+	.change2 {
+		width: 97.5%;
+	}
+}
