@@ -1,0 +1,63 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: white; 
+	font-size: 40px;
+}
+#menu {
+	text-shadow: 1px 1px 1px black;
+	color: black;
+	text-align: center;
+	background-color: #DAA520;
+	width: 100%;
+	border: 3px solid black;
+	border-radius: 10px;
+	margin: 2px auto 0;
+	font-size: 0.7em;
+}
+#nav-bar {
+	margin: 0 0 0 0;
+	background-color:#FFD700;
+	width: 100%;
+}
+
+#large-text {
+	height: 1000px;
+	width: 90%;
+	margin: 10px auto 0;
+}
+
+#letreiro {
+	margin: 10px 0 10px 20px;
+	font-size: 1em;
+	color: black;
+}
+
+#titulo {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#block {
+	width: 95%;
+	margin: 10px auto 0;
+	background-color: #87CEFA;
+}
+#titi {
+	font-size: 1.2em;
+}
+#texto {
+	font-size: 0.7em;
+}
+@media (max-width: 767px) {
+	body {
+		font-size: 30px;
+	}
+ 	#block {
+ 		width: 80%;
+ 	}
+}
+section {
+	height: 1000px;
+	background-color: #87CEFA;
+
+}
